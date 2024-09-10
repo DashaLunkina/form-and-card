@@ -1,0 +1,50 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+    transition: 0.3s;
+}
+
+#tiktok{
+    color: brown;
+}
+
+#linkedin{
+    color: chartreuse;
+}
+
+#github{
+    color: blue;
+}
+
+span{
+    overflow:hidden;
+    transition: 0.3s;
+    text-align: center;
+    width: 0px;
+}
+
+.button:hover{
+    width: 160px;
+    border-radius: 5px;
+}
+
+.button:hover span{
+    width: 120px;
+    
+}
